@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Algorithm Project</title>
+</head>
+<body>
+    <nav>
+        <h1>Algorithm Project</h1>
+        <div class="button-container">
+            <div>
+                <label for="size-input">Array Size</label>
+                <input type="range" name="size-slider" id="size-slider" min="1"
+                max="250">
+                <input type="number" name="size-input" id="size-input" max="250">
+                <button id="generate-array">Generate New Array</button>
+                <br>
+                <label for="speed-slider">Speed</label>
+                <input type="range" name="speed-slider" id="speed-slider" min="10" step="10"
+                max="100">
+            </div>  
+
+            <button id="bubble-sort-button">Bubble</button>
+            <button id="insertion-sort-button">Insertion</button>
+            <button id="selection-sort-button">Selection</button>
+            <button id="quick-sort-button">Quick</button>
+            <button id="merge-sort-button">Merge</button>
+            <!-- <button id="test-button">Test</button> -->
+        </div>
+    </nav>
+
+    <div id="bars-container">
+        <div class="bar"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
